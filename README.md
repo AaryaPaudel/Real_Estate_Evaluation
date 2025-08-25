@@ -5,24 +5,44 @@ This project uses Python, PySpark, and PostgreSQL to process real estate data an
 Follow these steps exactly, and you'll have the project running in no time.
 Project Files
 Your project is organized in a very professional way, which is great! You have correctly separated your code from your data and used a standard src (source) folder.
+
 Your project folder should look like this:
+
 BIGDATACOURSEWORK/
-├── .venv/
-├── data/
-│   ├── raw/
-│   │   └── Real estate.csv
-│   ├── output/
-│   ├── input/
-├── src/
-│   └── etl/
-│       ├── dashboard.py
-│       ├── extract.py
-│       ├── load.py
-│       └── transform.py
-├── requirements.txt
-└── README.md
+
+.venv/
+
+data/
+
+raw/
+
+Real estate.csv
+
+output/
+
+src/
+
+app/
+
+streamlit_app.py
+
+etl/
+
+dashboard.py
+
+extract.py
+
+load.py
+
+transform.py
+
+requirements.txt
+
+README.md
 
 You should have your Real estate.csv file in the data/raw folder for the extract.py script to find it.
+
+
 
 Step 1: Install the Prerequisites
 You need a few programs installed on your computer to get started.
