@@ -6,41 +6,26 @@ Follow these steps exactly, and you'll have the project running in no time.
 Project Files
 Your project is organized in a very professional way, which is great! You have correctly separated your code from your data and used a standard src (source) folder.
 
-Your project folder should look like this:
+Your project folder contains a few important files and folders:
 
-BIGDATACOURSEWORK/
+data/raw/Real estate.csv: This is where you should place the original raw data file.
 
-.venv/
+data/output/: This folder will be created automatically when you run the pipeline. It will contain the processed data files.
 
-data/
+src/etl/: This folder contains the core pipeline scripts:
 
-raw/
+extract.py: Reads the raw CSV data.
 
-Real estate.csv
+transform.py: Cleans and aggregates the data.
 
-output/
+load.py: Writes the processed data to the database.
 
-src/
+src/app/: This folder contains the web application code:
 
-app/
+dashboard.py: The Python script for your interactive dashboard.
 
-streamlit_app.py
+README.md: This user manual file.
 
-etl/
-
-dashboard.py
-
-extract.py
-
-load.py
-
-transform.py
-
-requirements.txt
-
-README.md
-
-You should have your Real estate.csv file in the data/raw folder for the extract.py script to find it.
 
 
 
