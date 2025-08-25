@@ -1,0 +1,4 @@
+id,name,price,quantity,total
+1,itemA,10.0,100,1000.0
+2,itemB,20.0,50,1000.0
+3,itemC,5.0,200,1000.0
